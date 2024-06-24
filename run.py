@@ -77,4 +77,4 @@ elif page == "Live Cook-A-Long":
 if __name__ == "__main__":
     st.write(page)
 
-streamlit run food_creator.py
+streamlit run run.py
