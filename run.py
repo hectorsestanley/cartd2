@@ -10,7 +10,7 @@ page = st.sidebar.radio("Go to", ["Home", "Recipes", "Cookbooks", "Live Cook-A-L
 # Home page
 if page == "Home":
     st.title("Nat's Nourishments - Colourful recipes, mostly healthy - sometimes not!")
-    st.image("https://your-image-url.jpg", use_column_width=True)
+    st.image("https://m.media-amazon.com/images/I/81V0teHGLTL._CR0,1072,3556,795_._FMjpg_.jpg", use_column_width=True)
     st.write("Hello foodies! Welcome to my food blog where I share my favorite recipes, recommend cookbooks, and host live cook-a-long sessions. Stay tuned and happy cooking!")
 
 # Recipes page
@@ -49,7 +49,7 @@ elif page == "Cookbooks":
     st.write("Check out these cookbooks to enhance your culinary skills:")
     
     cookbooks = [
-        {"title": "Mastering the Art of French Cooking", "author": "Julia Child", "image": "https://your-cookbook-image-url.jpg", "buy_link": "https://your-buy-link.com"},
+        {"title": "Mastering the Art of French Cooking", "author": "Julia Child", "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.co.uk%2FMastering-Art-French-Cooking-1%2Fdp%2F0394721780&psig=AOvVaw14w51Y-xA37heIA2Y-iZAB&ust=1719339139207000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCICXi8fr9IYDFQAAAAAdAAAAABAE", "buy_link": "https://your-buy-link.com"},
         {"title": "The Joy of Cooking", "author": "Irma S. Rombauer", "image": "https://your-cookbook-image-url.jpg", "buy_link": "https://your-buy-link.com"}
     ]
     
