@@ -76,5 +76,3 @@ elif page == "Live Cook-A-Long":
 # Running the app
 if __name__ == "__main__":
     st.write(page)
-
-streamlit run run.py
